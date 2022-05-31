@@ -8,20 +8,32 @@
     width: 45%;
     margin: 0 auto;
 }
-.menu-items {
+.cards-items {
     margin-top: 80px;
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
 }
-.menu-items .item {
+.cards-items .item {
     border-radius: var(--main-radius);
     box-shadow: var(--main-shadow);
     background-color: var(--white-color);
     transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22px;
 }
-.menu-items .item:hover {
+.services .cards-items .item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services .cards-items .item img {
+    width: 120px;
+}
+.cards-items .item:hover {
     transform: scale(1.03); 
 }
-.menu-items .item img {
+.mepartnersnu-items .item img {
     border-radius: var(--main-radius);
 }
 .item-content {
