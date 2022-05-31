@@ -1,7 +1,7 @@
 @import "./variables.css";
 
 footer {
-    background-color: #F2F2F2;
+    background: linear-gradient(-90deg, var(--primary-color),var(--secondary-color));
 }
 .footer-wrapper {
     padding: 80px 0;
@@ -21,7 +21,7 @@ flex: 0 0 200px;
 }
 .footer-col h5 {
     font-size: 15px;
-    color: var(--secondary-color);
+    color: var(--white-color);
     margin-bottom: 15px;
     font-weight: var(--font-bold);
     }
@@ -34,24 +34,25 @@ flex: 0 0 200px;
 }
 .footer-col ul li a {
     font-size: var(--text-base);
-    color: var(--secondary-color);
+    color: var(--white-color);
     transition: var(--animate);
     text-transform: capitalize;
 }
 .footer-col ul li a:hover {
-    color: var(--primary-color);
-    border-bottom: 1px solid var(--primary-color);
+    color: var(--white-color);
+    border-bottom: 1px solid var(--white-color);
 }
 .copyright {
     padding: 25px 0;
     text-align: center;
-    border-top: 1px solid var(--primary-color);
+    border-top: 1px solid var(--white-color);
 }
 .copyright p {
     font-size: var(--text-base);
-    color: var(--secondary-color);
+    color: var(--white-color);
     font-weight: var(--font-base);
 }
 .copyright p a {
-    color: var(--primary-color);
+    color: var(--whtie-color);
+    text-decoration: underline;
 }

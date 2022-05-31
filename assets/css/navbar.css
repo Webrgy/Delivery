@@ -27,7 +27,7 @@ nav {
     transition: var(--animate);
 }
 nav .logo {
-    width: 200px;
+    width: 150px;
 }
 .navigation-bar ul li {
     position: relative;
@@ -105,13 +105,14 @@ nav .logo {
         width: 100%;
         background-color: var(--secondary-color);
         padding: 20px 0;
-        z-index: 2;
+        z-index: 10;
+        height: 100vh;
     }
     .navigation-bar ul li {
       display: block;
       margin: 15px 0;
     }
     .navigation-bar ul li a {
-      color: var(--third-color);
+      color: var(--white-color);
     }
 }
