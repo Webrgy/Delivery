@@ -25,6 +25,7 @@ section {
     background: url('../images/wave-2.svg');
     background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .partners h2 {
     color: var(--highlighted-color);

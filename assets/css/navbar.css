@@ -39,7 +39,7 @@ nav .logo {
 }
 .navigation-bar ul li a {
     position: relative;
-    font-size: var(--text-base);
+    font-size: var(--text-medium);
     color: var(--secondary-color);
     font-weight: var(--font-base);
     text-transform: capitalize;
